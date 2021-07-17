@@ -133,7 +133,7 @@ desde o início do pedido até o final da resposta ao acessar o site do Google.
 
 # Conceito do HTTP
 
-HTTP foi feito para ser simples e legível de forma que a pessoa mais leiga sobre o assunto pudesse entender como o mesmo
+HTTP foi feito para ser simples e legível de forma que por mais leiga que a pessoa seja sobre o assunto, possa entender como o mesmo
 funciona.<br>
 
 Um exemplo básico de como o HTTP funciona é você se imaginar em um bar, onde você faz um pedido de uma cerveja ao garçom
