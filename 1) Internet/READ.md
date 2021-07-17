@@ -129,8 +129,7 @@ desde o início do pedido até o final da resposta ao acessar o site do Google.
     </BODY></HTML>
     * Connection #0 to host google.com left intact
     
-#### Observação: O sinal '>' significa que está sendo feito um pedido/requisição e o sinal '<' significa que foi dada 
-uma resposta.
+#### Observação: O sinal '>' significa que está sendo feito um pedido/requisição e o sinal '<' significa que foi dada uma resposta.
 
 # Conceito do HTTP
 
