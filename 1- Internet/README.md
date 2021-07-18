@@ -183,8 +183,46 @@ Os proxies possuem diversas funções, como:
   <li><b>Autenticação e autorização:</b> Serve para tornar a conexão Cliente-Servidor mais segura.</li>
 </ul>
 
+# O que é URI?
 
+URI significa <i>Uniform Resource Identifier</i>, traduzindo, significa que é um Identificador de Recurso Uniforme.<br>
 
+O URI será usado para identificar um recurso, seja pelo nome ou pela localização. Um exemplo disso é pensando que você é
+um recurso, e para achá-lo, deve-se saber o seu nome e sua localização.
+
+## Resource
+
+O resource ou recurso é o alvo do pedido HTTP, ou seja, é o link que o usuário deseja acessar. Esse recurso pode ser qualquer
+coisa identificável ou uma entidade, que pode variar entre digital, abstrata e física. Lembrando que se o usuário pode identificar, nomear, endereçar ou manipular, estaremos falando de um recurso.
+
+## Locator / URL
+
+No locator ou localizador é utilizado a URL, que significa <i>Uniform Resource Locator</i>, que traduzindo significa Localizador
+de Recurso Uniforme, que é um localizador pelo endereço de um recurso.<br>
+
+Uma URL é formada por componentes obrigatórios:
+<ul>
+  <li><b>Protocolo:</b> "https"</li> 
+  <li><b>Domínio:</b> "google.com"</li>
+  <li><b>Protocolo e domínio:</b> "https://google.com"</li>
+</ul>
+
+e por componentes opcionais:
+<ul>
+  <li><b>Subdomínio:</b> É o que vem antes do domínio, como "www".</li>
+  <li><b>Patch:</b> É o que vem depois do domínio, como "/home".</li>
+  <li><b>Parâmetros:</b> Aparece após o domínio também, como "/watch?v=2k3j546b".</li>
+  <li><b>Porta:</b> "dominio.com:'3333'".</li>
+  <li><b>Âncora:</b> "127.0.0.1/'index.html'".</li>
+</ul>
+
+## Name / URN
+
+No name ou nome é utilizado a URN, que significa <i>Uniform Resource Name</i>, que traduzindo significa Nome de Recurso
+Uniforme.<br>
+
+Na URN não se sabe o local do recurso, mas se sabe o nome do recurso para ser buscado na internet. Exemplo:
+"urn:usbn:0123456789".
 
 
 
