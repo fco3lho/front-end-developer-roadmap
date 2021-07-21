@@ -267,14 +267,43 @@ Server: gws
 X-XSS-Protection: 0
 X-Frame-Options: SAMEORIGIN
 Set-Cookie: 1P_JAR=2021-07-21-13; expires=Fri, 20-Aug-2021 13:24:50 GMT; path=/; domain=.google.com; Secure
-Set-Cookie: NID=219=IwG4GtPSdIBie5jyT_Pki-_vT_dMp8qfCiGlQIeYppUXzbeCvtMYR3TSeIgpaQVQIftoMmPhG6ieRiz5kyUpo9qzK78M-Imkz7yBg3RjURPEA49bJFLmtoyfVlos2DfCN490zE67-zklg_iCgQcBBxL2GvrwuKO8VcAHbdFK5Cc; expires=Thu, 20-Jan-2022 13:24:50 GMT; path=/; domain=.google.com; HttpOnly
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Set-Cookie: NID=219=IwG4GtPSdIBie5jyT_Pki-_vT_dMp8qfCiGlQIeYppUXzbeCvtMYR3TSeIgpaQVQIftoMmPhG6ieRiz5kyUpo9q
+zK78M-Imkz7yBg3RjURPEA49bJFLmtoyfVlos2DfCN490zE67-zklg_iCgQcBBxL2GvrwuKO8VcAHbdFK5Cc; expires=Thu,
+20-Jan-2022 13:24:50 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; 
+ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 Accept-Ranges: none
 Vary: Accept-Encoding
 Transfer-Encoding: chunked
 
 <html></html>
 ```
+
+# Métodos
+
+Métodos HTTP ou verbos HTTP é a indicação de alguma ação ou funcionalidade que o cliente deseja operar. Os mesmos são divididos em: <i>OPTIONS, GET, HEAD, POST, PUT, PATCH e DELETE</i>.
+
+Sobre as características dos métodos, é bom lembrar que nem todos são seguros ou idempotentes. O que isso significa?
+
+Se for seguro, quer dizer que o método não altera o estado do servidor, ou seja, ele executa somente leitura. Os métodos considerados seguros são: <i>GET, HEAD e OPTIONS</i>.
+
+Se for idempotente, quer dizer que ao executar o método, a resposta deverá ser sempre a mesma. Os métodos considerados idempotentes são: <i>PUT, DELETE</i> e todos os seguros.
+
+### Funcionalidades dos métodos:
+
+<ul>
+  <li><b>OPTIONS:</b> Retorna os métodos permitidos de acesso.</li>
+  <li><b>GET:</b> Serve para pegar um recurso.</li>
+  <li><b>HEAD:</b> Parecido com o <b>GET</b>, mas tem a função de pegar apenas o cabeçalho.</li>
+  <li><b>POST:</b> Serve para publicar ou cadastrar um recurso.</li>
+  <li><b>PUT:</b> Serve para criar ou atualizar completamente um recurso.</li>
+  <li><b>PATCH:</b> Serve para modificar um recurso parcialmente.</li>
+  <li><b>DELETE:</b> Serve para remover um recurso.</li>
+</ul>
+
+
+
+
 
 
 
