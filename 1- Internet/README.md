@@ -224,6 +224,61 @@ Uniforme.<br>
 Na URN não se sabe o local do recurso, mas se sabe o nome do recurso para ser buscado na internet. Exemplo:
 "urn:usbn:0123456789".
 
+# Mensagens HTTP
+
+As mensagens HTTP ocorrem na comunicação entre cliente e servidor para que haja a transferência do recurso requerido 
+de forma clara.
+
+### HTTP/1.1
+
+É uma versão do HTTP que foi priorizada para ser mais legível e textual.
+
+### HTTP/2
+
+É uma versão melhorada da versão 1.1, priorizando a estrutura binária e otimizações gerais.
+
+## Request
+
+O request/pedido é composto pelo método, versão de protocolo e URI.
+
+<b>Exemplo de <i>request</i> da página do google:</b>
+
+```
+> GET / HTTP/1.1
+> Host: www.google.com
+> User-Agent: curl/7.55.1
+> Accept: */*
+```
+
+## Response
+
+A response/resposta é composta pela versão do protocolo, status code, headers e status message.
+
+<b>Exemplo de <i>response</i> da página do google:</b>
+
+```
+HTTP/1.1 200 OK
+Date: Wed, 21 Jul 2021 13:24:50 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: 1P_JAR=2021-07-21-13; expires=Fri, 20-Aug-2021 13:24:50 GMT; path=/; domain=.google.com; Secure
+Set-Cookie: NID=219=IwG4GtPSdIBie5jyT_Pki-_vT_dMp8qfCiGlQIeYppUXzbeCvtMYR3TSeIgpaQVQIftoMmPhG6ieRiz5kyUpo9qzK78M-Imkz7yBg3RjURPEA49bJFLmtoyfVlos2DfCN490zE67-zklg_iCgQcBBxL2GvrwuKO8VcAHbdFK5Cc; expires=Thu, 20-Jan-2022 13:24:50 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+
+<html></html>
+```
+
+
+
+
 
 
 
