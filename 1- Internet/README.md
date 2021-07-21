@@ -301,9 +301,18 @@ Se for idempotente, quer dizer que ao executar o método, a resposta deverá ser
   <li><b>DELETE:</b> Serve para remover um recurso.</li>
 </ul>
 
+# Headers
 
+Headers, traduzindo literalmente, significa cabeçalhos. Os headers são informações adicionais para o pedido (<i>request</i>) ou resposta (<i>response</i>), sendo normalmente construído da forma <i>Nome: valor</i>.
 
-
+#### Exemplo:
+```
+Request URL: https://google.com/
+Request Method: GET
+Status Code: 301
+Remote Address: 123.123.123.123:987
+Referrer Policy: strict-origin-when-cross-origin
+```
 
 
 
