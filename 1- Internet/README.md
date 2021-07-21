@@ -313,7 +313,30 @@ Status Code: 301
 Remote Address: 123.123.123.123:987
 Referrer Policy: strict-origin-when-cross-origin
 ```
+# Status Code
 
+A função do status code é fazer uma comunicação mais clara entre servidor e cliente.
+
+### Lista de status code mais comuns:
+
+<ul>
+  <li><b>100:</b> Continue</li>
+  <li><b>200:</b> OK</li>
+  <li><b>201:</b> Created</li>
+  <li><b>204:</b> No Content</li>
+  <li><b>301:</b> Moved Permanently</li>
+  <li><b>308:</b> Permanent Redirect</li>
+  <li><b>302:</b> Found</li>
+  <li><b>307:</b> Temporary Redirect</li>
+  <li><b>400:</b> Bad Request</li>
+  <li><b>401:</b> Unauthorized</li>
+  <li><b>403:</b> Forbidden</li>
+  <li><b>404:</b> Not Found</li>
+  <li><b>405:</b> Method Not Allowed</li>
+  <li><b>429:</b> Too Many Requests</li>
+  <li><b>500:</b> Internal Server Error</li>
+  <li><b>503:</b> Service Unavailable</li>
+<ul>
 
 
 
