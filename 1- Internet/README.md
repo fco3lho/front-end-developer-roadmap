@@ -1,6 +1,6 @@
 # O que é HTTP?
 
-HTTP é um acrônimo para HyperText Transfer Protocol, ou seja, é um protocolo de transferência de HyperTexto. <br><br>
+HTTP é um acrônimo para HyperText Transfer Protocol, ou seja, é um Protocolo de Transferência de HiperTexto. <br><br>
 Isso quer dizer que o HTTP permite a troca de informações e dados na internet, que funciona como se fossem troca de mensagens 
 entre duas pessoas, onde o usuário faz um pedido e recebe uma resposta, e na resposta vão ser encontrados elementos como HTML, 
 CSS, scripts, imagens, vídeos etc, lembrando que é feito uma chamada para cada um desses recursos no pedido feito pelo usuário.
