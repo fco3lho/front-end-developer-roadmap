@@ -142,7 +142,7 @@ e o garçom lhe dá uma resposta, levando a cerveja até você.<br>
 ### Stateless
 
 O HTTP ser stateless, significa que o mesmo não guarda informações e não se relaciona entre conexões, ou seja, isso quer 
-dizer que em cada coneção Usuário/Servidor de diferentes URLs, nenhum desses pedidos/respostas se relacionam, fazendo com 
+dizer que em cada conexão Usuário/Servidor de diferentes URLs, nenhum desses pedidos/respostas se relacionam, fazendo com 
 que sejam independentes.<br>
 
 Mas existem as <b>sessões</b> que contradizem um pouco o parágrafo acima. E o que são essas sessões? As sessões são as 
