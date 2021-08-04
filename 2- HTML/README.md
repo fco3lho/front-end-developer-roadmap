@@ -211,6 +211,28 @@
   </span>
   Qualquer
   ```
+## Links
+  
+  O elemento âncora ou a tag <i>a</i>, é o elemento que faz a ligação em diversas páginas. <br>
+  
+  A anatomia da tag <i>a</i> é formada por atributos globais, de <i>download</i>, de <i>target</i> 
+  (sendo '_self' para padrão ou '_blank' para bertura de nova guia) e pelo mais importante que é o <i>href</i>, 
+  que indica para onde o usuário será redirecionado quando clicar no link.<br>
+  
+  Exemplos básicos:<br> 
+  ```<a href="google.com" target="_blank"> Link do Google </a>```<br>
+  ```<a href="mailto:fulano@teste.com.br">Email</a>```<br>
+  ```<a href="tel:+5538999999999">Telefone</a>```<br>
+  
+  Exemplos com fragmentos:<br>
+  ```<a href="#about">Sobre</a>```<br>
+  ```<a href="#history">História</a>```<br>
+  ```<a href="works">Trabalhos</a>```<br>
+  
+  Lembrando que nos fragmentos, as tags devem ser identficadas com o <i>id</i> referente ao <i>href</i>.
+  
+  
+  
   
   
   
