@@ -31,3 +31,8 @@ maneira certa de ser escrita/falada para haver uma boa comunicação, então fiq
 
 Para adicionar o JS ao HTML, você deverá usar a tag <i>script</i> no <i>body</i> do seu código HTML. <br>
 Exemplo: ```<script src="./script.js"></script>```.
+
+## Códigos Javascript
+
+A lista de estudos citada acima, será escrita em códigos ```.js``` que serão encontrados no mesmo repositório que este
+arquivo-texto.
