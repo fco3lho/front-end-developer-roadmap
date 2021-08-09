@@ -411,7 +411,9 @@
   Descrição: ```<meta name="description" content="Uma página qualquer">```<br>
   Robôs: ```<meta name="robots" content="follow, index">```
   
+## Código exemplo HTML 
   
+Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp feito na <a href="https://rocketseat.com.br">Rocketseat</a> neste repositório de HTML.
  
   
   
