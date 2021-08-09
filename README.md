@@ -3,7 +3,12 @@
  This repository is intended to store all the content studied by me to become a front-end developer, 
  as if it were a roadmap.
  
-#### Ordered list of studied content: 
+### Example repository
+
+  To access the repository of a website made by me using HTML5, CSS3 and Javascript in a bootcamp from <a href="https://rocketseat.com.br">Rocketseat</a>
+  click <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">here</a>. The link to access the created site is found in the repository.
+
+### Ordered list of studied content: 
  <ol>
   <li>Internet</li>
   <li>HTML - Hypertext Markup Language</li>
@@ -21,9 +26,14 @@
 ## Roteiro desenvolvedor front-end
  
   Este repositório tem como objetivo armazenar todo o conteúdo estudado por mim para me tornar um desenvolvedor front-end, 
-  como se fosse um roteiro. 
+  como se fosse um roteiro.
+  
+### Repositório exemplo
 
-#### Lista ordenada de conteúdo estudado:
+  Para acessar o repositório de um site feito por mim usando HTML5, CSS3 e Javascript em um bootcamp da <a href="https://rocketseat.com.br">Rocketseat</a>
+  clique <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">aqui</a>. O link para acessar o site criado se encontra no repositório.
+
+### Lista ordenada de conteúdo estudado:
   <ol>
    <li>Internet</li>
    <li>HTML - Hypertext Markup Language</li>
