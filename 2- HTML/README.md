@@ -231,6 +231,188 @@
   
   Lembrando que nos fragmentos, as tags devem ser identficadas com o <i>id</i> referente ao <i>href</i>.
   
+## Tabelas
+  
+  As tabelas serão usadas para fazer organização de dados e essa organização será feita utilizando as linhas e colunas
+  da tabela, o que facilitará a visualização desses dados e ter uma boa acessibilidade do mesmo. O ponto negativo das 
+  tabelas é o fato de serem pouco flexíveis e precisarem de uma estilização para melhor visualização.
+  
+### Tabela básica
+  
+  ```
+<table>
+  <caption>Pessoas por idade:</caption>
+  
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>Felipe</td>
+      <td>19</td>
+    </tr>
+
+    <tr>
+      <td>Fulano</td>
+      <td>25</td>
+    </tr> 
+  </tbody>
+  
+  <tfoot>
+    <tr>
+      <td>Total: </td>
+      <td>2 Pessoas</td>
+    </tr>
+  </tfoot>
+</table>
+  ```
+  
+  <strong>Output:</strong>
+  
+<table>
+  <caption>Pessoas por idade:</caption>
+  
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>Felipe</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>Fulano</td>
+      <td>25</td>
+    </tr> 
+  </tbody>
+  
+  <tfoot>
+    <tr>
+      <td>Total: </td>
+      <td>2 Pessoas</td>
+    </tr>
+  </tfoot>
+</table>
+  
+### Tabela complexa
+  
+  ```
+  <table>
+    <caption>Produzidos x vendidos por Loja</caption>
+
+    <colgroup>
+      <col>
+      <col span="2" style="background-color: aqua">
+      <col span="2" style="background-color: tomato">
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2" scope="colgroup">Loja 1</th>
+        <th colspan="2" scope="colgroup">Loja 2</th>
+      </tr>
+
+      <tr>
+        <th scope="col">Produzidos</th>
+        <th scope="col">Vendidos</th>
+        <th scope="col">Produzidos</th>
+        <th scope="col">Vendidos</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th scope="row">Produto 1</th>
+        <td>50</td>
+        <td>30</td>
+        <td>20</td>
+        <td>10</td>
+      </tr>
+
+      <tr>
+        <th scope="row">Produto 2</th>
+        <td>10</td>
+        <td>10</td>
+        <td>50</td>
+        <td>20</td>
+      </tr>
+    </tbody>
+  </table>
+  ```
+  
+  <strong>Output:</strong>
+  
+<table>
+  <caption>Produzidos x vendidos por Loja:</caption>
+  <colgroup>
+    <col>
+    <col span="2" style="background-color: aqua">
+    <col span="2" style="background-color: tomato">
+  </colgroup>
+  <thead>
+    <tr>
+      <th rowspan="2"></th>
+      <th colspan="2" scope="colgroup">Loja 1</th>
+      <th colspan="2" scope="colgroup">Loja 2</th>
+    </tr>
+    <tr>
+      <th scope="col">Produzidos</th>
+      <th scope="col">Vendidos</th>
+      <th scope="col">Produzidos</th>
+      <th scope="col">Vendidos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Produto 1</th>
+      <td>50</td>
+      <td>30</td>
+      <td>20</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th scope="row">Produto 2</th>
+      <td>10</td>
+      <td>10</td>
+      <td>50</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table>
+  
+## Cabeçalhos
+  
+  O cabeçalho é a parte que não é exibida no navegador, mas serve para configurar a página, como a alteração do título
+  da página, link para ligar o CSS/Javascript ao arquivo HTML, idioma da página, entre outros.
+  
+### Tag <i>Meta</i>
+  
+  Codificação de caracteres especiais: ```<meta charset="UTF-8">```.<br>
+  Portabilidade para dispositivos móveis: ```<meta name="viewport" content="width-device-width, initial-scale=1.0">```.<br>
+  
+### Favicon
+  
+  Link para ícones personalizados da página.
+  
+  Favicon básico: ```<link rel="icon" href="https://iconarchive.com/show/qetto-icons-by-ampeross/icon-developer-icon.html">```
+  
+### Meta <i>SEO</i> - Search Engine Optimization
+  
+  Autor: ```<meta name="author" content="Felipe Campos">```<br>
+  Descrição: ```<meta name="description" content="Uma página qualquer">```<br>
+  Robôs: ```<meta name="robots" content="follow, index">```
+  
+  
+ 
   
   
   
