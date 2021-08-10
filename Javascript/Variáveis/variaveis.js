@@ -16,3 +16,4 @@ console.log("Tipo da variável idade: " + typeof idade)
 const genero = "Masculino" //A "variável" const após receber algum valor não pode ser alterada devido a ela ser constante.
 console.log("Gênero: " + genero)
 console.log("Tipo da variável genero: " + typeof genero)
+
