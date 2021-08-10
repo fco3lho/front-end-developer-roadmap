@@ -9,3 +9,11 @@ console.log({
   idade: 19,
   codando: true
 })
+
+var person = {
+  nome: 'John',
+  idade: 20,
+  altura: 1.84
+}
+
+console.log(person)
