@@ -13,13 +13,14 @@ function funcao(){
 
 funcao()
 
-//Outro exemplo de função
+//Outros exemplos de função
 
-let a = 29
-let b = 15
+let a = 10
+let b = 20
 
 function soma(a, b){
-  console.log(`Soma entre a e b = ${a + b}`)
+  let sum = a + b
+  return sum 
 }
 
-soma(a, b)
+console.log(`A soma total é ${soma(a, b)}`)
