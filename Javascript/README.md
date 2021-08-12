@@ -18,6 +18,7 @@ Começando do básico de JS, é recomendado estudar os seguintes recursos para o
   <li>Tipos de dados</li>
   <li>Variáveis</li>
   <li>Funções</li>
+  <li>Manipulação de dados</li>
   <li>Condicionais</li>
   <li>Estruturas de repetição</li>
 </ol>
