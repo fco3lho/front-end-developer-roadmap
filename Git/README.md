@@ -58,4 +58,77 @@ do projeto. Após isso, insira o comando <code>git commit -m "primeiro commit"</
 
 Usando o comando <code>git log</code>, o git irá te mostrar o histórico de <i>commits</i> realizados naquele projeto.
 
+## Comando <i>git help</i>
+          
+<strong>Uso:</strong>
+ 
+  <ul>
+    <li><code>git --version</code></li>
+    <li><code>git --help</code></li>
+    <li><code>git -C [path]</code></li>
+    <li><code>git -c [name]=[value]</code></li>
+    <li><code>git --exec-path[=path]</code></li>
+    <li><code>git --html-path</code></li>
+    <li><code>git --man-path</code></li>
+    <li><code>git --info-path</code></li>
+    <li><code>git -p</code> ou <code>git --paginate</code> ou <code>git -P</code> ou <code>git --no-pager</code></li>
+    <li><code>git --no-replace-objects</code></li>
+    <li><code>git --bare</code></li>
+    <li><code>git --git-dir=[path]</code></li>
+    <li><code>git --work-tree=[path]</code></li>
+    <li><code>git --namespace=[name]</code></li>
+    <li><code>git --super-prefix=[path]</code></li>
+    <li><code>git --config-env=[name]=[envvar]</code></li>
+  </ul>
 
+### Estes são comandos Git comuns usados em várias situações:
+
+<strong>Para iniciar uma área de trabalho:</strong>
+
+<ul>
+  <li><code>clone</code>: Clone um repositório em um novo diretório.</li>
+  <li><code>init</code>: Crie um repositório Git vazio ou reinicialize um existente.</li>
+</ul>
+
+<strong>Para trabalhar na mudança atual:</strong>
+
+<ul>
+  <li><code>add</code>: Adiciona o conteúdo do arquivo ao índice.</li>
+  <li><code>mv</code>: Mover ou renomear um arquivo, diretório ou link simbólico.</li>
+  <li><code>restore</code>: Restaurar arquivos da árvore de trabalho.</li>
+  <li><code>rm</code>: Remove os arquivos da árvore de trabalho e do índice.</li>
+  <li><code>sparse-checkout</code>: Inicializar e modificar o sparse-checkout.</li>
+</ul>
+
+<strong>Para examinar o histórico e o estado:</strong>
+
+<ul>
+  <li><code>bisect</code>: Use a pesquisa binária para encontrar o commit que introduziu um bug.</li>
+  <li><code>diff</code>: Mostra mudanças entre commits, commit e árvore de trabalho, etc.</li>
+  <li><code>grep</code>: Imprimir linhas que combinam com um padrão.</li>
+  <li><code>log </code>: Mostrar logs de confirmação.</li>
+  <li><code>show</code>: Mostra vários tipos de objetos.</li>
+  <li><code>status</code>: Mostra o status da árvore de trabalho.</li>
+</ul>
+   
+<strong>Para crescer, marcar e ajustar sua história comum:</strong>
+
+<ul>
+  <li><code>branch</code>: Listar, criar ou excluir branches.</li>
+  <li><code>commit</code>: Mudanças de registro para o repositório.</li>
+  <li><code>merge</code>: Junte dois ou mais históricos de desenvolvimento juntos.</li>
+  <li><code>rebase</code>: Reaplica commits em cima de outra ponta de base.</li>
+  <li><code>reset</code>: Redefina o HEAD atual para o estado especificado.</li>
+  <li><code>switch</code>: Mudar ramos.</li>
+  <li><code>tag</code>: Criar, listar, excluir ou verificar um objeto de tag assinado com GPG.</li>
+</ul>
+
+<strong>Para colaborar:</strong>
+
+<ul>
+  <li><code>fetch</code>: Buscar objetos de download e referências de outro repositório.</li>
+  <li><code>pull</code>: Busque e integre com outro repositório ou filial local.</li>
+  <li><code>push</code>: Atualizar referências remotas junto com objetos associados.</li>
+</ul>
+
+#### Obs.: Qualquer desses comandos devem ser antecedidos de <i>git</i>, exemplo <code>git [comando]</code>.
