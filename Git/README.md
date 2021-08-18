@@ -40,3 +40,22 @@ para algum projeto, terá a última versão do projeto salva nela, e isso para o
 com que se algum servidor do projeto cair ou deixar de existir, possuem outros servidores que poderão salvar o projeto. 
 Isso tudo funciona por meio de clones do repositório principal, onde cada clone é basicamente um backup completo de todo 
 o projeto.
+
+## Começando no Git
+
+### Iniciando um repositório
+
+No terminal do Git, utilize o comando <code>cd</code> para ir até o diretório em que deseja criar um repositório.
+Ao entrar no diretório que deseja criar um repositório, escreva o comando <code>git init</code>, feito isso, 
+você terá criado o repositório.
+
+### Primeiro <i>commit</i>
+
+No diretório em que foi criado o repositório, digite o comando <code>git add .</code> para adicionar um ponto a história
+do projeto. Após isso, insira o comando <code>git commit -m "primeiro commit"</code> para descrever o commit.
+
+### Git log
+
+Usando o comando <code>git log</code>, o git irá te mostrar o histórico de <i>commits</i> realizados naquele projeto.
+
+
