@@ -414,15 +414,116 @@
 ## Código exemplo HTML 
   
 Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp feito na <a href="https://rocketseat.com.br">Rocketseat</a> neste repositório de HTML.
- 
+
+# Formulários
   
+## Form
   
+  Elemento que definirá um formulário.
+
+  <ul>
+    <li>action: Para onde os dados do formulário irão (Se vazio enviará para a própria página).</li>
+    <li>method: GET: Pega os dados e envia para o endereço de 'action'. <br>
+                POST: Pega os dados e envia para o endereço de 'action' de modo mais sigiloso.</li>
+  </ul>
+   
+```
+    <form id="form1" action="" method="GET">
+    <button>Enviar</button>
+    </form>
+```
   
+## Fieldset 
   
+  Serve para agrupar as informações/campos que tenham o mesmo propósito, com a finalidade de deixar o HTML 
+  mais semântico e mais acessível.
+
+  Atributos especiais:
   
+  <ul>
+    <li>Disabled: desabilita todos os elementos internos, ou seja, não será enviado ao submeter o formulário.</li>
+    <li>Form: Faz referência a um formulário com o id inserido e não precisa estar dentro do formulário. 
+      Linka o fieldset ao formulário indicado pelo id.</li>
+    <li>Name: Nome do grupo.</li>
+  </ul>
+    
+  O fieldset sempre será acompanhado pela tag <legend>, que é o nome do agrupamento e é o primeiro elemento 
+  dentro do fieldset.
   
+```
+<form action="">
+  <fieldset form="form1" name="contact">
+    <legend>Contato</legend>
+    <label for="">Nome</label>
+    <input type="text">
+  </fieldset>
+</form>
+```
   
+## Label
   
+  Serve para associar e identificar uma ou mais tags de entrada de dados, aumentando a acessibilidade.
+
+  Para fazer conexão entre o label e a tag de entrada de dados, feito via 'id' do 'input' e só funciona 
+  com os elementos 'button', 'input', 'meter', 'output', 'progress', 'select' e 'textarea'.
+  
+```
+ <label>
+  Nome:
+  <input type="text">
+ </label>
+
+ <label for="sobrenome">Sobrenome:</label>
+ <input id="sobrenome" type="text">
+```
+  
+## Button
+  
+  Representa um botão usado para enviar formulários e é estilizado pelo user agent.
+
+  Atributos comuns:
+  
+  <ul>
+    <li>Type: submit, reset.</li>
+    <li>Autofocus: Foco da página para o botão.</li>
+    <li>Disabled: Desabilita o botão.</li>
+    <li>Form: Conecta o botão a algum formulário com o id inserido.</li>
+  </ul>
+
+```
+<form action="">
+  <input type="text" value="teste">
+
+  <button type="submit">Enviar</button>
+  <button type="reset">Limpar</button>
+</form>
+
+<button autofocus>Submit</button>
+<button disabled>Desabilitado</button>
+```
+
+## Datalist
+  
+  Fornece ao usuário uma lista de valores como sugestão a uma tag <input>. O usuário pode selecionar um 
+  dos valores ou colocar um valor diferente da sugestão.
+  
+```
+  <input type="text" list="listaDeFrutas" placeholder="Escolha uma fruta">
+
+  <datalist id="listaDeFrutas">
+    <option>Maçã</option>
+    <option>Banana</option>
+    <option>Mamão</option>
+  </datalist>
+
+  <input type="color" list="listaDeCores">
+
+  <datalist id="listaDeCores">
+    <option>#ff0000</option>
+    <option>#00ff00</option>
+    <option>#0000ff</option>
+  </datalist>
+```
   
   
   
