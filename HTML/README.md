@@ -441,10 +441,10 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   Atributos especiais:
   
   <ul>
-    <li>Disabled: desabilita todos os elementos internos, ou seja, não será enviado ao submeter o formulário.</li>
-    <li>Form: Faz referência a um formulário com o id inserido e não precisa estar dentro do formulário. 
+    <li>disabled: desabilita todos os elementos internos, ou seja, não será enviado ao submeter o formulário.</li>
+    <li>form: Faz referência a um formulário com o id inserido e não precisa estar dentro do formulário. 
       Linka o fieldset ao formulário indicado pelo id.</li>
-    <li>Name: Nome do grupo.</li>
+    <li>name: Nome do grupo.</li>
   </ul>
     
   O fieldset sempre será acompanhado pela tag <legend>, que é o nome do agrupamento e é o primeiro elemento 
@@ -484,10 +484,10 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   Atributos comuns:
   
   <ul>
-    <li>Type: submit, reset.</li>
-    <li>Autofocus: Foco da página para o botão.</li>
-    <li>Disabled: Desabilita o botão.</li>
-    <li>Form: Conecta o botão a algum formulário com o id inserido.</li>
+    <li>type: submit, reset.</li>
+    <li>autofocus: Foco da página para o botão.</li>
+    <li>disabled: Desabilita o botão.</li>
+    <li>form: Conecta o botão a algum formulário com o id inserido.</li>
   </ul>
 
 ```
@@ -524,6 +524,38 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
     <option>#0000ff</option>
   </datalist>
 ```
+  
+## Input
+  
+  Uma das tags mais usadas em formulários, aceita os mais diversos tipos de dados e
+  possui um elevado número de combinações.
+  
+  Atributos:
+  
+  <ul>
+    <li>type: text, date, number, email, file, password.</li>
+    <li>name</li>
+    <li>id</li>
+    <li>autocomplete: utiliza cookies para autocompletar dados já usados, como email.</li>
+    <li>autofocus: inicializa a página com foco na tag.</li>
+    <li>disable: desabilita o campo.</li>
+    <li>value: determina um valor de início.</li>
+    <li>form: serve para linkar à algum formulário usando o id do formulário.</li>
+    <li>placeholder: Mensagem de fundo antes de inserir alguma coisa no campo.</li>
+  </ul>
+  
+  Exemplos:
+  ```
+  <input type="text" />
+  <input type="date" />
+  <input type="number" />
+  <input type="email" />
+  <input type="file" />
+  <input type="password" title="Mínimo 4, máximo 12 caracteres" minlength="4" maxlength="12" size="12"/>
+
+  <label for="email">Email:</label>
+  <input id="email" type="email" placeholder="Digite seu email aqui" />
+  ```
   
   
   
