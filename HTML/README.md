@@ -557,6 +557,11 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   <input id="email" type="email" placeholder="Digite seu email aqui" />
   ```
   
+  ## Formulário de exemplo
+  
+  Para acessar o formulário de exemplo usando apenas HTML5, clique <a href="https://github.com/fco3lho/front-end-developer-roadmap/blob/main/HTML/formExample.html">aqui</a>.
+  
+  
   
   
   
