@@ -579,6 +579,34 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   Além disso, os motores de busca dão preferência para sites que estão com sua semântica em dia. Um site bem estruturado e 
   organizado é um site melhor encontrado na web.
   
+  ## HTML5 Semântico
+  
+  ### As tags
+  
+  Elas que irão ajudar a criar um HTML semântico, pois algumas tags tem significados específicos e orientações claras sobre 
+  onde devem ficar na página e o motivo dela existir.
+  
+  Exemplo:
+  
+  ```
+    “Não se pode pisar duas vezes no mesmo rio.”
+                                  - Heráclito
+  ```
+  
+  Com uma melhor semântica:
+  
+  ```
+    <blockquote>
+      “Não se pode pisar duas vezes no mesmo rio.”
+                             <cite>- Heráclito</cite>
+    </blockquote>
+  ```
+  
+  ### Entendendo os significados
+  
+  O autor da página deve se responsabilizar por entender os significados dos elementos, que às vezes parece ser simples, mas
+  outras vezes é muito complexo de se entender alguns elementos.
+  
   
   
   
