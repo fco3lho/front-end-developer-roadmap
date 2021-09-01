@@ -589,8 +589,10 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   Exemplo:
   
   ```
-    “Não se pode pisar duas vezes no mesmo rio.”
+    <p>
+      “Não se pode pisar duas vezes no mesmo rio.”
                                   - Heráclito
+    </p>
   ```
   
   Com uma melhor semântica:
