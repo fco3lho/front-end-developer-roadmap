@@ -561,7 +561,23 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   
   Para acessar o formulário de exemplo usando apenas HTML5, clique <a href="https://github.com/fco3lho/front-end-developer-roadmap/blob/main/HTML/formExample.html">aqui</a>.
   
+# Web Semântica
   
+  ### O que é?
+  
+  Significa a adição de significado à uma linguagem, no caso do HTML, para dar significado ao conteúdo e serve para controlar a
+  organização e apresentação do conteúdo. Cada site é único, entretanto, existem padrões ou convenções, que nós identificamos
+  intecionalmente ou não intencionalmente.
+  
+  Ao usar uma marcação semântica consistente, para identificar os elementos da página, nós ajudamos os <code>user agents</code>
+  a identificar corretamente os elementos e apresentá-los aos visitantes da página.
+  
+  Isso se torna extremamente relevante para acessibilidade, ou seja, para visitantes que precisam usar leitores de página, 
+  por exemplo. Com uma página desorganizada, fica complexo para o visitante com necessidades especiais, fazer bom uso 
+  da nossa página.
+  
+  Além disso, os motores de busca dão preferência para sites que estão com sua semântica em dia. Um site bem estruturado e 
+  organizado é um site melhor encontrado na web.
   
   
   
