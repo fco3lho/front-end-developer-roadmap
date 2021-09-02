@@ -563,7 +563,7 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   
 # Web Semântica
   
-  ### O que é?
+  ## O que é?
   
   Significa a adição de significado à uma linguagem, no caso do HTML, para dar significado ao conteúdo e serve para controlar a
   organização e apresentação do conteúdo. Cada site é único, entretanto, existem padrões ou convenções, que nós identificamos
@@ -609,6 +609,155 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   O autor da página deve se responsabilizar por entender os significados dos elementos, que às vezes parece ser simples, mas
   outras vezes é muito complexo de se entender alguns elementos.
   
+  ## Seções comuns
   
+  As seções comumente encontrada em documentos HTML são:
+  
+  <ul>
+    <li><code>&ltheader&gt</code>: Cabeçalho</li>
+    <li><code>&ltnav&gt</code>: Navegação</li>
+    <li><code>&ltmain&gt</code>: Main</li>
+    <li><code>&ltaside&gt</code>: Barra lateral</li>
+    <li><code>&ltfooter&gt</code>: Rodapé</li>
+  </ul>
+  
+  ### Tag header
+  
+  O cabeçalho ou a tag <code>header</code> são recomendados se usar no início da página e são vistos como um elemento global da
+  página. Esta tag pode ser usada em outros elementos semânticos como <code>article</code> e <code>section</code> e não pode
+  ser usado dentro de uma outra tag <code>geader</code> ou dentro de uma tag <code>footer</code>, pois perderia seu sentido.
+  
+  ### Tag nav
+  
+  A tag <code>nav</code> serve para representar uma seção da página que aponta para outra página ou para outra seção da página
+  e é recomendado usar esta tag dentro da tag <code>header</code>.
+  
+  ### Tag main
+  
+  A tag <code>main</code> é para um conteúdo único da sua página, portanto, você vai utilizá-la apenas uma vez por página, 
+  e vai ser colocada direto do <code>body</code>, e não é legal deixar em qualquer outro lugar além de logo depois do
+  <code>body</code>, entendemos a tag <code>main</code> como o foco central da página, o conteúdo principal da aplicação, 
+  então geralmente dentro dessa tag, não vamos deixar o nosso menu.
+  
+  Exemplo:
+  
+  ```
+  <body>
+    <main>
+        <h1>Receitas</h1>
+        <p>Essa é uma página de receitas</p>
+
+        <article>
+            <h2>Receita de torta de maçã</h2>
+            <p>Essa é uma receita de torta de maçã</p>
+        </article>
+
+        <article>
+            <h2>Receita de torta de limão</h2>
+            <p>Essa é uma receita de torta de maçã</p>
+        </article>
+    </main>
+  </body>
+  ```
+  Essa estruturação semântica vai nos ajudar com a nossa própria organização, com o nosso CSS, com o Javascript, 
+  com o motor de buscas, acessibilidade, entre outros. Lembrando que a tag <code>main</code> não possui atributos 
+  específicos, somente os globais.
+  
+  ### Tag article
+  
+  A tag <code>article</code> vai criar blocos de conteúdo que estejam relacionados, exemplo a seguir:
+  
+  ```
+  <body>
+    <main>
+        <h1>Receitas</h1>
+        <p>Essa é uma página de receitas</p>
+
+        <article>
+            <h2>Receita de torta de maçã</h2>
+            <p>Essa é uma receita de torta de maçã</p>
+        </article>
+
+        <article>
+            <h2>Receita de torta de limão</h2>
+            <p>Essa é uma receita de torta de maçã</p>
+        </article>
+    </main>
+  </body>
+  ```
+  Lembrando que a tag <code>article</code> não possui atributos específicos, somente os globais.
+
+  ### Tag aside
+  
+  A tag <code>aside</code> é para conteúdos levemente relacionados ao conteúdo principal, como explicações do conteúdo,
+  glossários, links extras, biografia do autor, informações de perfil e etc.
+
+  É uma tag fácil de se entender, porém fácil de se confundir, então evite atribuir a tag <code>aside</code> ao lado da 
+  página conforme você for aprendendo mais sobre HTML, CSS.
+  
+  ### Tag footer
+  
+  A tag <code>footer</code> é bem tranquila de se entender, ela fica no final da página e vai geralmente ter informações 
+  do autor da página, copyright, contato, sitemap, voltar ao topo, são algumas das coisas que aparecem geralmente no 
+  <code>footer</code>.
+
+  Abaixo um exemplo de como seria um HTML com <code>footer</code>:
+  
+  ```
+  <body>  
+    <article>
+      <h1>Sobre nós</h1>
+      <p>Formamos um time de profissionais: </p>
+
+      <ol>
+          <li>Capacitados</li>
+          <li>Gentis</li>
+          <li>Honestos</li>
+          <li>Gentils</li>
+      </ol>
+
+      <h2>Quem são</h2>
+      <ul>
+          <li>Harry Hair</li>
+          <li>Dora Depiladora</li>
+          <li>Massoterapeuta Massa</li>
+          <li>Esteticista Ciça</li>
+          <li>Pedo Curi</li>
+          <li>Bárbara Brabeira</li>
+          <li>Cecília (para seus cílios)</li>
+      </ul>
+
+    </article>
+
+    <footer>
+        <p>© 2020 Cabeleleila Leila</p>
+    </footer>
+  </body>
+  ```
+  Lembrando que a tag <code>footer</code> não possui atributos específicos, somente os globais.
+  
+  ### Tag section
+  
+  A tag <code>section</code> serve para colocarmos seções na nossa página HTML, e uma dica de ouro, geralmente se coloca 
+  um título e conteúdo na tag <code>section</code>. Antigamente usava-se uma <code>div</code> para fazer essas divisões 
+  e seções de conteúdos, mas semanticamente é mais apropriado usar uma tag <code>section</code>. 
+  
+  Exemplo de uso a seguir:
+  
+  ```
+  <main>
+    <h1>Receita 1</h1>
+    <p>descrição da receita</p>
+
+    <section>
+        <h2> Modo de preparo</h2>
+        <p>Modo de preparo</p>
+    </section>
+  </main>
+  ```
+  
+  <strong>Obs.:</strong> A tag <code>section</code> pode ser usada dentro de um article, e não possui atributos específicos, 
+  somente os globais.
+
   
   
