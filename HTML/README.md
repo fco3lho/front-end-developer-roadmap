@@ -759,5 +759,68 @@ Disponibilizarei um código exemplo HTML de um site feito por mim em um bootcamp
   <strong>Obs.:</strong> A tag <code>section</code> pode ser usada dentro de um article, e não possui atributos específicos, 
   somente os globais.
 
+# Áudio e vídeo no HTML
+  
+  ### Vídeo
+  
+  Para colocar um vídeo em seu HTML, você deverá utilizar a tag <code>video</code>. Exemplo:
+  
+  ```
+  <video src="./diretorio/teste.mp4" controls>
+    <p>Vídeo teste</p>
+  </video>
+  ```
+  
+  Lembrando que o modelo citado é usado apenas para vídeos que se encontram nos mesmos diretórios da página a ser criada.
+  
+  ### Áudio
+  
+  Para colocar um áudio em seu HTML, você deverá utilizar a tag <code>audio</code>. Exemplo:
+  
+  ```
+  <audio>
+    <source src="./diretorio/audio.mp3" type="audio/mp3">
+  </audio>
+  ```
+  
+  Lembrando que o modelo citado é usado apenas para áudios que se encontram nos mesmos diretórios da página a ser criada.
+  
+  ### iframe
+  
+  A tag <code>iframe</code> serve como uma terceirização de conteúdos do servidor, onde esta tag irá utilizar video 
+  de terceiros e não do servidor da própria página. Exemplo de como utilizar:
+  
+  ```
+  <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/LXb3EKWsInQ" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+  ```
+  
+  E podemos usar o <code>iframe</code> não só para vídeos, mas também para áudios, mapas etc. Exemplo:
+  
+  ```
+  <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240097.49467512988!2d-44.1037912410267!3d-19.90233891568629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1630605748595!5m2!1spt-BR!2sbr" 
+          width="600" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+  </iframe>
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
