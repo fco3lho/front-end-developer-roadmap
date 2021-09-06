@@ -6,9 +6,7 @@
 ### Example repository
 
   To access the repository of a website made by me using HTML5, CSS3 and Javascript in a bootcamp from <a href="https://rocketseat.com.br">Rocketseat</a>
-  click <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">here</a>. The link to access the created site is found in the repository.
-
-### Ordered list of studied content: 
+  click <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">here</a>. To access the site created at bootcamp, click <a href="https://fco3lho.github.io/MissionOrigin-RocketSeat/">here</a>.
  <ol>
   <li>Internet</li>
   <li>HTML - Hypertext Markup Language</li>
@@ -31,7 +29,7 @@
 ### Repositório exemplo
 
   Para acessar o repositório de um site feito por mim usando HTML5, CSS3 e Javascript em um bootcamp da <a href="https://rocketseat.com.br">Rocketseat</a>
-  clique <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">aqui</a>. O link para acessar o site criado se encontra no repositório.
+  clique <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">aqui</a>. Para acessar o site criado no bootcamp, clique <a href="https://fco3lho.github.io/MissionOrigin-RocketSeat/">aqui</a>.
 
 ### Lista ordenada de conteúdo estudado:
   <ol>
