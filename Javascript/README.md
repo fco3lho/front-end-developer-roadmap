@@ -51,7 +51,7 @@ arquivo-texto.
   
   ### Exemplo de árvore DOM
 
-  <img src="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Javascript/DOM/DOM%20tree.png">
+  <img src="https://github.com/fco3lho/front-end-developer-roadmap/blob/main/Javascript/DOM/DOM%20tree.png">
 
   E se quisessemos acessar a tag h1 do body usando Javascript, como iriamos fazer?
 
