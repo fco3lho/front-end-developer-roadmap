@@ -37,3 +37,40 @@ Exemplo: ```<script src="./script.js"></script>```.
 
 A lista de estudos citada acima, será escrita em códigos ```.js``` que serão encontrados no mesmo repositório que este
 arquivo-texto.
+
+# DOM - Document Object Model
+
+  DOM é o HTML convertido para um objeto Javascript, é uma API que representa e
+  interage com o HTML. O DOM é uma estrutura de dados do tipo árvore, que criada 
+  pelo browser, e por ser um objeto, ele possui propriedades e métodos.
+
+  ### Para que serve o DOM?
+
+  O Javascript utiliza DOM para se conectar com o HTML, ou seja, só é possível 
+  programar para WEB com Javascript porque existe o DOM.
+  
+  ### Exemplo de árvore DOM
+
+  <img src="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Javascript/DOM/DOM%20tree.png">
+
+  E se quisessemos acessar a tag h1 do body usando Javascript, como iriamos fazer?
+
+  É simples, teríamos que percorrer a árvore DOM usando a seguinte linha de código,
+  exemplo:
+
+  <code>window.document.html.body.h1</code>
+
+  Mas essa linha por si só não tem nenhuma função. Aprenderemos agora a aplicar 
+  as seguintes funcionalidades ao HTML usando a árvore DOM e Javascript:
+
+  <ul>
+    <li>Selecionando elementos</li>
+    <li>Manipulando conteúdos</li>
+    <li>Manipulando estilos e classes</li>
+    <li>Navegando pelos elementos</li>
+    <li>Criando e adicionando elementos na página</li>
+    <li>Eventos</li>
+  </ul>
+
+  Para ter acesso aos elementos da lista acima, clique <a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Javascript/DOM">aqui</a>.
+
