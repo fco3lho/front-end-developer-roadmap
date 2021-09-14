@@ -87,6 +87,82 @@ Exemplos para Chrome, Safari, iOS e Android, Mozilla (Firefox), Internet Explore
 -o-background-clip: text;
 ```
 
+# Unidades de medida
+
+Cada propriedade possui valores do tipo <code>property: value</code>, e agora vamos estudar as propriedades e seus valores
+a fim de entendê-los.
+
+## Tipos numéricos e unidades comuns
+
+### Tipos númericos
+
+<ul>
+  <li>&ltinteger&gt: número inteiro como -10 ou 223.</li>
+  <li>&ltnumber&gt: número decimal como -2.4, 64 ou 0.234.</li>
+  <li>&ltdimension&gt: é um &ltnumber&gt com uma unidade junto, como 90deg ou 14px.</li>
+  <li>&ltpercentage&gt: representa uma fração de outro número, como 50%.</li>
+</ul>
+
+### Unidades comuns
+
+<ul>
+  <li>&ltlength&gt: é um um dos mais usados no CSS e representa um valor de distância: px, em, vw.</li>
+  <li>&ltangle&gt: representa um ângulo: deg, rad, turn.</li>
+  <li>&lttime&gt: representa um tempo: s, ms.</li>
+  <li>&ltresolution&gt: representa resoluções para dispositivos: dpi.</li>
+</ul>
+
+## Distâncias absolutas e relativas
+
+As distâncias absolutas são ficas e não alteram seu valor, como o <b>px</b> e o <b>cm</b>, e as distâncias relativas
+são relativas a outro valor, que pode ser o elemento pai, root ou o tamanho da tela, o que é mais benefico, pois traz uma
+maior adaptação aos diferentes tipos de tela.
+
+#### Observações:
+
+<ul>
+  <li>
+    Normalmente o tamanho da font padrão do navegador é de 16px e para mudar esse valor temos que fazer a alteração 
+    no root ou no elemento html.
+  </li>
+  <li>
+    O <b>viewport</b> é a parte da tela que está sendo exibida. No caso dos navegadores web, é o que é exibido na janela/tela 
+    do documento. Conteúdos que estão fora do viewport só serão exibidos quando feito um scroll da área de visualização.
+  </li>
+</ul>
+
+## Porcentagens
+
+As porcentagens são valores bem flexíveis, e em muitos casos é tratado da mesma maneira que as distâncias, ou seja,
+sempre será relativo a algum valor.
+
+## Position
+
+As posições representam um conjunto de coordenadas, que podem ser divididas em:
+
+<ul>
+  <li>top</li>
+  <li>right</li>
+  <li>bottom</li>
+  <li>left</li>
+  <li>center</li>
+</ul>
+
+E normalmente são usadas para alguns tipos de propriedades, como o <code>background-position</code>.
+
+## Funções
+
+O CSS possui funções assim como em linguagens de programação, e são muito usadas para causar um reaproveitamento do código.
+
+Exemplo de funções: <code>rgb()</code>, <code>hsl()</code>, <code>url()</code>, <code>calc()</code>. Dentro dos parêntesis
+de cada função, são passados os argumentos.
+
+Para acessar o conteúdo sobre funções no CSS, clique <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions">aqui</a>.
+
+
+
+
+
 
 
 
