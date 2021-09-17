@@ -386,5 +386,5 @@ tempo.
   <li>funções: rgb, rgba, hsl, hsla</li>
 </ul>
 
-#### Para mais conteúdo sobre cores, clique <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">aqui</a>.
+### Para mais conteúdo sobre cores, clique <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">aqui</a>.
 
