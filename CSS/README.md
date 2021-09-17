@@ -159,6 +159,105 @@ de cada função, são passados os argumentos.
 
 Para acessar o conteúdo sobre funções no CSS, clique <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions">aqui</a>.
 
+# Box model
+
+O Box Model é fundamental para fazer layouts para web porque ele vai te dar maior facilidade na hora de aplicar o CSS. 
+Ao entender os conceitos do Box Model muitas questões do CSS começam a fazer sentido.
+
+## O que é Box Model?
+
+Box Model é a representação de uma caixa retangular, que possui propriedades em 2 dimensões, sendo elas largura e altura.
+
+## Propriedades da caixa
+
+<ul>
+  <li>Tamanho - width/height</li>
+  <li>Conteúdo - content</li>
+  <li>Bordas - border</li>
+  <li>Preenchimento interno - padding</li>
+  <li>Espaços fora da caixa - margin</li>
+</ul>
+
+## Box Sizing
+
+O Box Sizing é importante para o desenvolvedor entender os cálculos que serão feitos ao determinar o tamanho de uma caixa,
+sendo assim, o Box Sizing pode se dividir em <code>content-box</code> ou <code>border-box</code>.
+
+<ul>
+  <li><strong>content-box: </strong>Vem por padrão no navegador e seu cálculo de tamanho é feito a partir do tamanho da 
+    caixa de conteúdo (Content Box) somado com as outras boxes. Sendo assim, se você determina o tamanho da caixa em
+    100px e adiciona um <i>padding</i> de 25px, será feito o seguinte cálculo: Tamanho = 100px + (2 * 25px) = 150px. Ou seja,
+    o tamanho determinado inicialmente não condiz com o tamanho final.</li>
+  <li><strong>border-box: </strong>Para que não aconteça como o exemplo acima, é possível com o <i>border-box</i> mudal qual
+    vai ser a referência para o cálculo do tamanho da caixa, fixando o valor determinado e adaptando o tamanho da <i>Content
+    Box</i> de acordo com os paramêtros adicionados.</li>
+</ul>
+
+## Display-block-inline
+
+Como as caixas se comportam em relação as outras caixas.
+
+### display: block;
+
+O Display Block ocupa toda a linha, colocando o próximo elemento abaixo do antecessor.
+
+<ul>
+  <li>Width e height são respeitados.</li>
+  <li>Padding, margin, border irão funcionar normalmente.</li>
+  <li>Tags que funcionam: p, div, section, h1, h2...</li>
+</ul>
+
+### display: inline;
+
+No Display Inline, os elementos ficam ao lado do outro e não empurram outros elementos para baixo.
+
+<ul>
+  <li>width e height não funcionam.</li>
+  <li>Somente valores horizontais de margin.</li>
+   <li>Tags que funcionam: a, strong, span, em...</li>
+</ul>
+
+## Margin
+
+Margin é o espaço entre os elementos, e podemos dividir esse espaço em 4 valores, <code>margin-top</code>, 
+<code>margin-right</code>, <code>margin-bottom</code> e <code>margin-left</code>, e seus valores podem ser em 
+comprimento, porcentagem ou automático (auto).
+
+<ul>
+  <li>O margin é aplicado em elementos com display block.</li>
+  <li>Cuidado com o margin collapsing, que é quando o top se junta ao bottom.</li>
+</ul>
+
+## Padding
+
+O padding é o preenchimento interno da caixa, e também podemos dividí-los em 4 valores, <code>padding-top</code>, 
+<code>padding-right</code>, <code>padding-bottom</code> e <code>padding-left</code>, e seus valores podem ser em 
+comprimento, porcentagem ou automático (auto).
+
+## Border-outline
+
+São as bordas da caixa, tendo como valores <code>border-style</code>, <code>border-widht</code> e <code>border-color</code>.
+
+<ul>
+  <li>Style: solid, dotted, dashed, double, grrove, ridge, inset e outset.</li>
+  <li>Width: &ltlength&gt.</li>
+  <li>Color: &ltcolor&gt.</li>
+</ul>
+
+### Outline
+
+O outline é muito semelhante ao border, mas difere em 4 sentidos:
+
+<ul>
+  <li>Não modifica o tamanho da caixa, pois não é parte do Box Model.</li>
+  <li>Poderá ser diferente de retangular.</li>
+  <li>Não permite ajuste individuais.</li>
+  <li>Mais usado pelo user agent para acessibilidade.</li>
+</ul>
+
+### Para mais contéudo sobre Box Model, clique <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">aqui</a>.
+
+
 
 
 
