@@ -367,7 +367,24 @@ Qual a direção do flex: horizontal ou vertical, row ou column.
 Funciona da mesma forma do Flexbox, mas difere do Flexbox ao poder usar o posicionamento horizontal e vertical ao mesmo
 tempo.
 
+# Cores
 
+#### Tipos
 
+<ul>
+  <li>background-color (para caixas)</li>
+  <li>color (para textos)</li>
+  <li>border-color (para caixas)</li>
+  <li>outros</li>
+</ul>
 
+#### Valores
+
+<ul>
+  <li>palavra-chave (blue, transparent)</li>
+  <li>hexadecimal (#990011)</li>
+  <li>funções: rgb, rgba, hsl, hsla</li>
+</ul>
+
+#### Para mais conteúdo sobre cores, clique <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">aqui</a>.
 
