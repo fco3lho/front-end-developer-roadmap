@@ -257,6 +257,62 @@ O outline é muito semelhante ao border, mas difere em 4 sentidos:
 
 ### Para mais contéudo sobre Box Model, clique <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">aqui</a>.
 
+# Font Properties
+
+A tipografia transmite uma mensagem, por exemplo, quando queremos dar uma ênfase no texto nós podemos escrever o mesmo em
+negrito. Nós podemos transmitir uma mensagem diferente dependendo do estilo que escrevemos o texto. Algumas das propriedades
+de fonts de texto do CSS que podem nos ajudar a transmitir uma mensagem através dos textos da página são:
+
+<ul>
+  <li>font-family</li>
+  <li>font-weight</li>
+  <li>font-style</li>
+  <li>font-size</li>
+</ul>
+
+## Font-family
+
+É o tipo de fonte de um elemento. Essa função lista as fontes em ordem de prioridade. 
+
+Exemplo:<code>font-family: "Times New Roman", Times, serif;</code>
+
+## Font-weight
+
+Font Weight é o peso da fonte, como normal, bold, bolder, lighter. Dependendo da família da fonte não conseguimos utilizar
+todos os pesos de fonte.
+
+Exemplo: <code>font-weight: bold;</code>
+
+## Font-style
+
+É o estilo da fonte, possui valores como, normal, italic, oblique. Os valores que podem ser aplicados dependem da fonte
+usada.
+
+Exemplo: <code>font-style: italic;</code>
+
+## Font-size
+
+É o tamanho da fonte.
+
+Exemplo: <code>font-size: 18px;</code>
+
+## Web-fonts
+
+Fontes do sistema são as fontes que estão instaladas na máquina do usuário e nem sempre o cliente vai ter instalado as 
+fontes usadas no projeto e isso pode fazer com que os estilos dos textos não sejam aplicados corretamente, mas para resolver
+esses casos podemos preparar nossas fonts para web ou usar fontes da web.
+
+### Como usar fontes para web?
+
+<ul>
+  <li>@font-face</li>
+  <li>@import</li>
+  <li>link</li>
+</ul>
+
+Referência de fontes: <a href="https://fonts.google.com/">Google fonts</a>, <a href="https://css-tricks.com/snippets/css/using-font-face/">CSS Tricks</a>.
+
+### Para saber mais sobre fonts, clique <a href="https://www.w3.org/TR/css-fonts-3/">aqui</a>.
 
 
 
