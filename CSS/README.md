@@ -312,12 +312,60 @@ esses casos podemos preparar nossas fonts para web ou usar fontes da web.
 
 Referência de fontes: <a href="https://fonts.google.com/">Google fonts</a>, <a href="https://css-tricks.com/snippets/css/using-font-face/">CSS Tricks</a>.
 
-### Para saber mais sobre fonts, clique <a href="https://www.w3.org/TR/css-fonts-3/">aqui</a>.
+### Para saber mais sobre fontes, clique <a href="https://www.w3.org/TR/css-fonts-3/">aqui</a>.
 
+# Posicionamento de elementos
 
+Aqui vamos ver como posicionar os elementos em tela criando bons layouts.
 
+## Page Layouts
 
+Alguns dos métodos usados para posicionar os elementos na tela.
 
+<ul>
+  <li>Tables</li>
+  <li>Floats e clear</li>
+  <li>Frameworks e Grid Systems</li>
+  <li>Flexbox</li>
+  <li>Grid</li>
+</ul>
+
+## Posicionamentos
+
+Controla onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+<ul>
+  <li>Name: position</li>
+  <li>Value: static, relative, absolute, fixed</li>
+</ul>
+
+Lembrando que o fluxo normal dos elementos é ficar um abaixo do outro, a não ser no caso de elementos inline, 
+que ficam um ao lado do outro.
+
+## Element Stacking
+
+É o empilhamento de elementos. Podemos usar o z-index para determinar a ordem da posição do elemento. 
+Quanto maior o z-index, mais "acima" vai aparecer o elemento.
+
+## Flexbox
+
+O Flexbox nos permite posicionar os elementos dentro da caixa.
+
+### Flex-direction
+
+Qual a direção do flex: horizontal ou vertical, row ou column.
+
+### Alinhamento
+
+<ul>
+  <li>justify-content</li>
+  <li>align-itens</li>
+</ul>
+
+## Grid
+
+Funciona da mesma forma do Flexbox, mas difere do Flexbox ao poder usar o posicionamento horizontal e vertical ao mesmo
+tempo.
 
 
 
