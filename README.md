@@ -12,11 +12,10 @@
   <li>HTML - Hypertext Markup Language</li>
   <li>CSS - Cascading Style Sheet</li>
   <li>Javascript</li>
-  <li>Git (Study shape more practical)</li>
-  <li>Github (Study shape more practical)</li>
-  <li>Package Managers - npm & yarn</li>
-  <li>Task Runners</li>
-  <li>Module Bundlers</li>
+  <li>Git</li>
+  <li>Github</li>
+  <li>Package Managers</li>
+  <li>Database</li>
   <li>React.js</li>
   <li>Others...</li>
  </ol>
@@ -37,11 +36,10 @@
    <li>HTML - Hypertext Markup Language</li>
    <li>CSS - Cascading Style Sheet</li>
    <li>Javascript</li>
-   <li>Git (Forma de estudo mais prática)</li>
-   <li>Github (Forma de estudo mais prática)</li>
-   <li>Gerenciadores de pacotes - npm e yarn</li>
-   <li>Executores de tarefas</li>
-   <li>Módulos de pacote</li>
+   <li>Git</li>
+   <li>Github</li>
+   <li>Gerenciadores de pacotes</li>
+   <li>Banco de dados</li>
    <li>React.js</li>
    <li>Outros...</li>
   </ol> 
