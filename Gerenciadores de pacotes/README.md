@@ -38,6 +38,26 @@ O V8 compõe o ambiente que irá rodar o JavaScript na máquina.
 O NodeJS funciona de maneira assíncrona, conseguindo concluir mais de um evento de cada vez e não possuindo bloqueios,
 o que faz com que seja bastante solicitado e entregue tudo que foi solicitado, tornando seu trabalho rápido e efetivo.
 
+# Configurando o ambiente
+
+### Instalando o NodeJS
+
+Você pode baixar o NodeJS clicando <a href="https://nodejs.org/en/">aqui</a>. É preferível que você selecione a versão LTS,
+pois significa que ela já foi mais testada e está mais adaptada. Siga os passos do instalador e finalize a instação.
+
+Para verificar se a instalação foi concluída com sucesso, abra o terminal e digite <code>node -v</code>. Isso deverá lhe
+retornar a versão do NodeJS que você instalou.
+
+### REPL
+
+REPL significa Read-Eval-Print-Loop, ou seja, poderemos escrever JavaScript em um ambiente node, direto no terminal.
+Para entrar, digite <code>node</code> no terminal.
+
+
+
+
+
+
 
 
 
