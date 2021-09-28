@@ -183,7 +183,7 @@ Rodando script.
 
 Para fazer a instalação de dependências globais, deve-se adicionar um "-g" ao final do comando de instalação, como 
 <code>npm install opn -g</code>. A dependência será instalada na máquina como um todo e é possível localizar essa 
-dependência utilizando o comando <code>npm root -g</code>
+dependência utilizando o comando <code>npm root -g</code>.
 
 
 
