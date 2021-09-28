@@ -8,15 +8,15 @@
   To access the repository of a website made by me using HTML5, CSS3 and Javascript in a bootcamp from <a href="https://rocketseat.com.br">Rocketseat</a>
   click <a href="https://github.com/fco3lho/MissionOrigin-RocketSeat">here</a>. To access the site created at bootcamp, click <a href="https://fco3lho.github.io/MissionOrigin-RocketSeat/">here</a>.
  <ol>
-  <li>Internet</li>
-  <li>HTML - Hypertext Markup Language</li>
-  <li>CSS - Cascading Style Sheet</li>
-  <li>Javascript</li>
-  <li>Git</li>
-  <li>Github</li>
-  <li>Package Managers</li>
-  <li>Database</li>
-  <li>React.js</li>
+  <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Internet">Internet</a></li>
+  <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/HTML">HTML - Hypertext Markup Language</a></li>
+  <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/CSS">CSS - Cascading Style Sheet</a></li>
+ <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Javascript">Javascript</a></li>
+ <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Git">Git</a></li>
+ <li><a href="https://docs.github.com/en/github">Github</a></li>
+ <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Gerenciadores%20de%20pacotes">Package Managers</a></li>
+ <li><a href="#">Database</a></li>
+ <li><a href="#">React.js</a></li>
   <li>Others...</li>
  </ol>
  
@@ -32,14 +32,14 @@
 
 ### Lista ordenada de conteúdo estudado:
   <ol>
-   <li>Internet</li>
-   <li>HTML - Hypertext Markup Language</li>
-   <li>CSS - Cascading Style Sheet</li>
-   <li>Javascript</li>
-   <li>Git</li>
-   <li>Github</li>
-   <li>Gerenciadores de pacotes</li>
-   <li>Banco de dados</li>
-   <li>React.js</li>
+   <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Internet">Internet</a></li>
+   <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/HTML">HTML - Hypertext Markup Language</a></li>
+   <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/CSS">CSS - Cascading Style Sheet</a></li>
+   <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Javascript">Javascript</a></li>
+   <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Git">Git</a></li>
+   <li><a href="https://docs.github.com/pt/github">Github</a></li>
+   <li><a href="https://github.com/fco3lho/front-end-developer-roadmap/tree/main/Gerenciadores%20de%20pacotes">Gerenciadores de pacotes</a></li>
+   <li><a href="#">Banco de dados</a></li>
+   <li><a href="#">React.js</a></li>
    <li>Outros...</li>
   </ol> 
