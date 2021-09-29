@@ -185,6 +185,25 @@ Para fazer a instalação de dependências globais, deve-se adicionar um "-g" ao
 <code>npm install opn -g</code>. A dependência será instalada na máquina como um todo e é possível localizar essa 
 dependência utilizando o comando <code>npm root -g</code>.
 
+### Timers
+
+Os timers servem como uma maneira de trabalharmos com o tempo dentro do NodeJS.
+
+<ul>
+  <li><code>setTimeout</code>: Faz com que rode uma função após X milissegundos. 
+    Exemplo: <code>setTimeout(function, 3000)</code>.</li>
+  
+  <li><code>clearTimeout</code>: Faz com que cancele um <code>timeOut</code>. 
+    Exemplo: <code>clearTimeout(setTimeout(function, 3000), 5000)</code>.</li>
+  
+  <li><code>setInterval</code>: Faz com que rode uma função N vezes depois de X milissegundos. 
+    Exemplo: <code>setInterval(function, 3000)</code>.</li>
+  
+  <li><code>clearInterval</code>: Faz com que cancele o <code>setInterval</code> registrado.
+    Exemplo: <code>clearInterval(setInterval(function, 3000), 6000)</code>.</li>
+</ul>
+
+#### Para mais informações sobre o NodeJS, acesse sua documentação clicando <a href="https://nodejs.org/dist/latest-v14.x/docs/api/">aqui</a>.
 
 
 
