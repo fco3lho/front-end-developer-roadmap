@@ -1,0 +1,16 @@
+{
+  "name": "NodeJS-e-EJS",
+  "version": "1.0.0",
+  "description": "O EJS é uma linguagem de modelagem para criação de páginas HTML utilizando Javascript.\r Isso quer dizer que, o EJS permite que seja criado o front da página com HTML dentro\r do NodeJS, isso tudo renderizado pelo Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
